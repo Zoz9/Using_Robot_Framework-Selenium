@@ -12,28 +12,27 @@ ${searchword}   iPhone 7
 
 *** Test Cases ***
 test1
-    Search press enter
+    Search
+    press enter
     url click number       1
 
 test2
-    Search press button
+    Search
+    press button
     url click number       1
 *** Keywords ***
 
-Search press enter
+Search
     Create Webdriver  Chrome
 	Go to  https://hotline.ua/
 	input text      name=q       ${searchword}
-	Press Key       id=doSearch    \\13
-	sleep  2s
 
-Search press button
-    Create Webdriver  Chrome
-	Go to  https://hotline.ua/
-	sleep  1s
-	input text      name=q       ${searchword}
+
+press enter
+    Press Key       id=doSearch    \\13
+
+press button
 	click button    id=doSearch
-	sleep  2s
 
 url click number
     [Arguments]  ${searhlinc}

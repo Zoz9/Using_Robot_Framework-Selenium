@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.0.4 (Python 3.7.0 on win32)" generated="20181011 00:53:32.919">
+<robot generator="Robot 3.0.4 (Python 3.7.0 on win32)" generated="20181011 02:16:24.522">
 <suite id="s1" name="Test1" source="C:\Users\zoz9\Documents\GitHub\Using_Robot_Framework-Selenium\tests\test1.robot">
 <test id="s1-t1" name="test1">
-<kw name="Search press enter">
+<kw name="Search">
 <kw name="Create Webdriver" library="Selenium2Library">
 <doc>Creates an instance of Selenium WebDriver.</doc>
 <arguments>
 <arg>Chrome</arg>
 </arguments>
-<msg timestamp="20181011 00:53:33.184" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
-<status status="PASS" starttime="20181011 00:53:33.184" endtime="20181011 00:53:35.580"></status>
+<msg timestamp="20181011 02:16:24.783" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20181011 02:16:24.782" endtime="20181011 02:16:27.149"></status>
 </kw>
 <kw name="Go To" library="Selenium2Library">
 <doc>Navigates the active browser instance to the provided ``url``.</doc>
 <arguments>
 <arg>https://hotline.ua/</arg>
 </arguments>
-<msg timestamp="20181011 00:53:35.580" level="INFO">Opening url 'https://hotline.ua/'</msg>
-<status status="PASS" starttime="20181011 00:53:35.580" endtime="20181011 00:53:38.474"></status>
+<msg timestamp="20181011 02:16:27.149" level="INFO">Opening url 'https://hotline.ua/'</msg>
+<status status="PASS" starttime="20181011 02:16:27.149" endtime="20181011 02:16:30.019"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -25,26 +25,21 @@
 <arg>name=q</arg>
 <arg>${searchword}</arg>
 </arguments>
-<msg timestamp="20181011 00:53:38.474" level="INFO">Typing text 'iPhone 7' into text field 'name=q'.</msg>
-<status status="PASS" starttime="20181011 00:53:38.474" endtime="20181011 00:53:38.825"></status>
+<msg timestamp="20181011 02:16:30.019" level="INFO">Typing text 'iPhone 7' into text field 'name=q'.</msg>
+<status status="PASS" starttime="20181011 02:16:30.019" endtime="20181011 02:16:30.225"></status>
 </kw>
+<status status="PASS" starttime="20181011 02:16:24.782" endtime="20181011 02:16:30.225"></status>
+</kw>
+<kw name="press enter">
 <kw name="Press Key" library="Selenium2Library">
 <doc>Simulates user pressing key on element identified by ``locator``.</doc>
 <arguments>
 <arg>id=doSearch</arg>
 <arg>\\13</arg>
 </arguments>
-<status status="PASS" starttime="20181011 00:53:38.825" endtime="20181011 00:53:38.929"></status>
+<status status="PASS" starttime="20181011 02:16:30.226" endtime="20181011 02:16:30.418"></status>
 </kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>2s</arg>
-</arguments>
-<msg timestamp="20181011 00:53:40.930" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20181011 00:53:38.930" endtime="20181011 00:53:40.930"></status>
-</kw>
-<status status="PASS" starttime="20181011 00:53:33.184" endtime="20181011 00:53:40.930"></status>
+<status status="PASS" starttime="20181011 02:16:30.226" endtime="20181011 02:16:30.418"></status>
 </kw>
 <kw name="url click number">
 <arguments>
@@ -55,7 +50,7 @@
 <arguments>
 <arg>xpath=//a[@data-tracking-id="catalog-10"]</arg>
 </arguments>
-<status status="PASS" starttime="20181011 00:53:40.931" endtime="20181011 00:53:43.718"></status>
+<status status="PASS" starttime="20181011 02:16:30.419" endtime="20181011 02:16:34.159"></status>
 </kw>
 <kw name="Get Matching Xpath Count" library="Selenium2Library">
 <doc>*DEPRECATED in Selenium2Library 3.2.* Use `Get Element Count` instead.</doc>
@@ -65,47 +60,39 @@
 <assign>
 <var>${AllLinksCount}</var>
 </assign>
-<msg timestamp="20181011 00:53:43.718" level="WARN">Keyword 'Selenium2Library.Get Matching Xpath Count' is deprecated. Use `Get Element Count` instead.</msg>
-<msg timestamp="20181011 00:53:43.733" level="INFO">${AllLinksCount} = 20</msg>
-<status status="PASS" starttime="20181011 00:53:43.718" endtime="20181011 00:53:43.733"></status>
+<msg timestamp="20181011 02:16:34.159" level="WARN">Keyword 'Selenium2Library.Get Matching Xpath Count' is deprecated. Use `Get Element Count` instead.</msg>
+<msg timestamp="20181011 02:16:34.176" level="INFO">${AllLinksCount} = 20</msg>
+<status status="PASS" starttime="20181011 02:16:34.159" endtime="20181011 02:16:34.176"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>xpath=(//a[@data-tracking-id="catalog-10"])[${searhlinc}]</arg>
 </arguments>
-<msg timestamp="20181011 00:53:43.733" level="INFO">Clicking element 'xpath=(//a[@data-tracking-id="catalog-10"])[1]'.</msg>
-<status status="PASS" starttime="20181011 00:53:43.733" endtime="20181011 00:53:47.617"></status>
+<msg timestamp="20181011 02:16:34.177" level="INFO">Clicking element 'xpath=(//a[@data-tracking-id="catalog-10"])[1]'.</msg>
+<status status="PASS" starttime="20181011 02:16:34.176" endtime="20181011 02:16:37.876"></status>
 </kw>
-<status status="PASS" starttime="20181011 00:53:40.931" endtime="20181011 00:53:47.618"></status>
+<status status="PASS" starttime="20181011 02:16:30.419" endtime="20181011 02:16:37.876"></status>
 </kw>
-<status status="PASS" starttime="20181011 00:53:33.184" endtime="20181011 00:53:47.618" critical="yes"></status>
+<status status="PASS" starttime="20181011 02:16:24.781" endtime="20181011 02:16:37.877" critical="yes"></status>
 </test>
 <test id="s1-t2" name="test2">
-<kw name="Search press button">
+<kw name="Search">
 <kw name="Create Webdriver" library="Selenium2Library">
 <doc>Creates an instance of Selenium WebDriver.</doc>
 <arguments>
 <arg>Chrome</arg>
 </arguments>
-<msg timestamp="20181011 00:53:47.621" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
-<status status="PASS" starttime="20181011 00:53:47.621" endtime="20181011 00:53:49.896"></status>
+<msg timestamp="20181011 02:16:37.881" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20181011 02:16:37.881" endtime="20181011 02:16:40.272"></status>
 </kw>
 <kw name="Go To" library="Selenium2Library">
 <doc>Navigates the active browser instance to the provided ``url``.</doc>
 <arguments>
 <arg>https://hotline.ua/</arg>
 </arguments>
-<msg timestamp="20181011 00:53:49.897" level="INFO">Opening url 'https://hotline.ua/'</msg>
-<status status="PASS" starttime="20181011 00:53:49.896" endtime="20181011 00:53:52.655"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>1s</arg>
-</arguments>
-<msg timestamp="20181011 00:53:53.655" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20181011 00:53:52.655" endtime="20181011 00:53:53.655"></status>
+<msg timestamp="20181011 02:16:40.273" level="INFO">Opening url 'https://hotline.ua/'</msg>
+<status status="PASS" starttime="20181011 02:16:40.272" endtime="20181011 02:16:43.261"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -113,26 +100,21 @@
 <arg>name=q</arg>
 <arg>${searchword}</arg>
 </arguments>
-<msg timestamp="20181011 00:53:53.656" level="INFO">Typing text 'iPhone 7' into text field 'name=q'.</msg>
-<status status="PASS" starttime="20181011 00:53:53.655" endtime="20181011 00:53:54.024"></status>
+<msg timestamp="20181011 02:16:43.262" level="INFO">Typing text 'iPhone 7' into text field 'name=q'.</msg>
+<status status="PASS" starttime="20181011 02:16:43.262" endtime="20181011 02:16:43.607"></status>
 </kw>
+<status status="PASS" starttime="20181011 02:16:37.880" endtime="20181011 02:16:43.607"></status>
+</kw>
+<kw name="press button">
 <kw name="Click Button" library="Selenium2Library">
 <doc>Clicks button identified by ``locator``.</doc>
 <arguments>
 <arg>id=doSearch</arg>
 </arguments>
-<msg timestamp="20181011 00:53:54.024" level="INFO">Clicking button 'id=doSearch'.</msg>
-<status status="PASS" starttime="20181011 00:53:54.024" endtime="20181011 00:53:54.211"></status>
+<msg timestamp="20181011 02:16:43.609" level="INFO">Clicking button 'id=doSearch'.</msg>
+<status status="PASS" starttime="20181011 02:16:43.608" endtime="20181011 02:16:43.796"></status>
 </kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>2s</arg>
-</arguments>
-<msg timestamp="20181011 00:53:56.212" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20181011 00:53:54.211" endtime="20181011 00:53:56.212"></status>
-</kw>
-<status status="PASS" starttime="20181011 00:53:47.621" endtime="20181011 00:53:56.212"></status>
+<status status="PASS" starttime="20181011 02:16:43.608" endtime="20181011 02:16:43.796"></status>
 </kw>
 <kw name="url click number">
 <arguments>
@@ -143,7 +125,7 @@
 <arguments>
 <arg>xpath=//a[@data-tracking-id="catalog-10"]</arg>
 </arguments>
-<status status="PASS" starttime="20181011 00:53:56.215" endtime="20181011 00:54:00.326"></status>
+<status status="PASS" starttime="20181011 02:16:43.797" endtime="20181011 02:16:49.173"></status>
 </kw>
 <kw name="Get Matching Xpath Count" library="Selenium2Library">
 <doc>*DEPRECATED in Selenium2Library 3.2.* Use `Get Element Count` instead.</doc>
@@ -153,27 +135,27 @@
 <assign>
 <var>${AllLinksCount}</var>
 </assign>
-<msg timestamp="20181011 00:54:00.326" level="WARN">Keyword 'Selenium2Library.Get Matching Xpath Count' is deprecated. Use `Get Element Count` instead.</msg>
-<msg timestamp="20181011 00:54:00.344" level="INFO">${AllLinksCount} = 20</msg>
-<status status="PASS" starttime="20181011 00:54:00.326" endtime="20181011 00:54:00.344"></status>
+<msg timestamp="20181011 02:16:49.173" level="WARN">Keyword 'Selenium2Library.Get Matching Xpath Count' is deprecated. Use `Get Element Count` instead.</msg>
+<msg timestamp="20181011 02:16:49.190" level="INFO">${AllLinksCount} = 20</msg>
+<status status="PASS" starttime="20181011 02:16:49.173" endtime="20181011 02:16:49.190"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>xpath=(//a[@data-tracking-id="catalog-10"])[${searhlinc}]</arg>
 </arguments>
-<msg timestamp="20181011 00:54:00.345" level="INFO">Clicking element 'xpath=(//a[@data-tracking-id="catalog-10"])[1]'.</msg>
-<status status="PASS" starttime="20181011 00:54:00.344" endtime="20181011 00:54:04.088"></status>
+<msg timestamp="20181011 02:16:49.190" level="INFO">Clicking element 'xpath=(//a[@data-tracking-id="catalog-10"])[1]'.</msg>
+<status status="PASS" starttime="20181011 02:16:49.190" endtime="20181011 02:16:54.055"></status>
 </kw>
-<status status="PASS" starttime="20181011 00:53:56.214" endtime="20181011 00:54:04.088"></status>
+<status status="PASS" starttime="20181011 02:16:43.797" endtime="20181011 02:16:54.056"></status>
 </kw>
-<status status="PASS" starttime="20181011 00:53:47.620" endtime="20181011 00:54:04.088" critical="yes"></status>
+<status status="PASS" starttime="20181011 02:16:37.879" endtime="20181011 02:16:54.056" critical="yes"></status>
 </test>
 <kw name="Close All Browsers" library="Selenium2Library" type="teardown">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<status status="PASS" starttime="20181011 00:54:04.091" endtime="20181011 00:54:09.533"></status>
+<status status="PASS" starttime="20181011 02:16:54.058" endtime="20181011 02:16:58.570"></status>
 </kw>
-<status status="PASS" starttime="20181011 00:53:32.919" endtime="20181011 00:54:09.533"></status>
+<status status="PASS" starttime="20181011 02:16:24.524" endtime="20181011 02:16:58.570"></status>
 </suite>
 <statistics>
 <total>
@@ -187,7 +169,7 @@
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20181011 00:53:43.718" level="WARN">Keyword 'Selenium2Library.Get Matching Xpath Count' is deprecated. Use `Get Element Count` instead.</msg>
-<msg timestamp="20181011 00:54:00.326" level="WARN">Keyword 'Selenium2Library.Get Matching Xpath Count' is deprecated. Use `Get Element Count` instead.</msg>
+<msg timestamp="20181011 02:16:34.159" level="WARN">Keyword 'Selenium2Library.Get Matching Xpath Count' is deprecated. Use `Get Element Count` instead.</msg>
+<msg timestamp="20181011 02:16:49.173" level="WARN">Keyword 'Selenium2Library.Get Matching Xpath Count' is deprecated. Use `Get Element Count` instead.</msg>
 </errors>
 </robot>

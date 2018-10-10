@@ -48,6 +48,15 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1169349587">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="test1" />
@@ -57,11 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test1.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#106#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -74,6 +80,9 @@
         <option value="Robot Test Suite" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -93,23 +102,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
+              <item name="Using_Robot_Framework-Selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Using_Robot_Framework-Selenium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
+              <item name="Using_Robot_Framework-Selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Using_Robot_Framework-Selenium" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,7 +163,7 @@
     <frame x="435" y="38" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49913943" visible="true" weight="0.2496329" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913943" visible="true" weight="0.2496329" />
       <window_info id="Structure" order="1" sideWeight="0.5008606" side_tool="true" weight="0.2496329" />
       <window_info id="Favorites" order="2" sideWeight="0.5008606" side_tool="true" weight="0.2496329" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -165,7 +174,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4992658" visible="true" weight="0.3298731" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4992658" visible="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007342" side_tool="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3298731" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -177,33 +186,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/selenium-screenshot-3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/selenium-screenshot-8.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/selenium-screenshot-7.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/selenium-screenshot-6.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/selenium-screenshot-5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/selenium-screenshot-4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/selenium-screenshot-39.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/geckodriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/selenium-screenshot-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/selenium-screenshot-3.png" />
+    <entry file="file://$PROJECT_DIR$/tests/selenium-screenshot-8.png" />
+    <entry file="file://$PROJECT_DIR$/tests/selenium-screenshot-7.png" />
+    <entry file="file://$PROJECT_DIR$/tests/selenium-screenshot-6.png" />
+    <entry file="file://$PROJECT_DIR$/tests/selenium-screenshot-5.png" />
+    <entry file="file://$PROJECT_DIR$/tests/selenium-screenshot-4.png" />
+    <entry file="file://$PROJECT_DIR$/tests/selenium-screenshot-39.png" />
+    <entry file="file://$PROJECT_DIR$/tests/geckodriver.log" />
+    <entry file="file://$PROJECT_DIR$/tests/selenium-screenshot-1.png" />
     <entry file="file://$PROJECT_DIR$/tests/log.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-35368">
@@ -225,11 +216,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test1.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#106#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
         </state>
       </provider>
     </entry>

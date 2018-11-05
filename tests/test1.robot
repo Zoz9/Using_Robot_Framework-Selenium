@@ -4,13 +4,12 @@ Library  Selenium2Library
 
 Suite Teardown  Close All Browsers
 
-
 *** Variables ***
 
 ${searchword}   iPhone 7
 
-
 *** Test Cases ***
+
 test1
     Search
     press enter
@@ -20,13 +19,13 @@ test2
     Search
     press button
     url click number       1
+
 *** Keywords ***
 
 Search
     Create Webdriver  Chrome
 	Go to  https://hotline.ua/
 	input text      name=q       ${searchword}
-
 
 press enter
     Press Key       id=doSearch    \\13
